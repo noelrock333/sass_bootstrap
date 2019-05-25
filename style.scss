@@ -1,0 +1,17 @@
+body {
+  background: purple;
+}
+
+.btn-outline-success {
+  color: purple;
+  border-color: purple;
+  &:hover {
+    background: purple;
+    color: white;
+    border-color: purple;
+  }
+}
+
+.card {
+  border-radius: 0;
+}
